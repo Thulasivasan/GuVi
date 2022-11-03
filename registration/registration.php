@@ -13,8 +13,6 @@ require_once('config.php');
 	<br>
 	<br>
 	<br>
-	<br>
-	<br><br>
 
 <div class="container">
 	<div class="">
@@ -50,7 +48,7 @@ require_once('config.php');
 						<div class="mb-3"></div>
 						<div class="row">
 							<h6 id="h6" class="col-sm-8 pt-2">Already a user ?</h6>
-							<a class="btn btn-primary col-sm-12" href="login.php" role="button">LogIn</a>
+							<a class="btn btn-primary col-sm-12" href="login.php" role="button">LogIn</a>	
 						</div>	
 
 						<hr class="mb-3 border border-success border-2">
@@ -59,11 +57,7 @@ require_once('config.php');
 			</div>
 		</div>		
 	</div>
-</div>
-
-
-
-	
+</div>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!-- sweat_Alert_CDN -->
 <script type="text/javascript">
@@ -88,7 +82,7 @@ require_once('config.php');
 						success : function(data){
 								swal({
 								  title: "Successfull",
-								  text: data,
+								  text: Registration Successfull,
 								  icon: "success",
 								  button: "ok"
 								})
