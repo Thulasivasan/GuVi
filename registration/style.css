@@ -16,4 +16,17 @@
 #h6{
 	font-family: cursive;
 	color: white;
+	text-align: center;
+}
+.h4{
+
+color: white;
+
+}
+.clr{
+	color: white;
+}
+#login_button{
+
+	text-align: center;
 }
