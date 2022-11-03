@@ -11,8 +11,7 @@ require_once('config.php');
 <body class="bg-dark">
 
 	<br>
-	<br>
-	<br>
+	<br><br>
 
 <div class="container">
 	<div class="">
@@ -82,7 +81,7 @@ require_once('config.php');
 						success : function(data){
 								swal({
 								  title: "Successfull",
-								  text: Registration Successfull,
+								  text: "Registration Successfull",
 								  icon: "success",
 								  button: "ok"
 								})
